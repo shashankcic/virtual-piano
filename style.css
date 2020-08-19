@@ -3,14 +3,28 @@ body {
     margin: 10%;
 }
 
-kbd {
+.black-keys kbd{
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    height: 120px;
+    width: 30px;
+    border-style: outset;
+    margin-left: -4px;
+    position: relative;
+    z-index: 1;
+    top: -200px;
+}
+
+.white-keys kbd{
     background-color: white;
     display: inline-block;
     height: 200px;
     width: 50px;
     text-align: center;
     border-style: outset;
-    margin-left: -4px;
+    margin-left: 4px;
 }
 
 .container {
