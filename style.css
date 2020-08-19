@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Josefin+Sans");
+
 body{
-    background-color: rgb(30,30,30);
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgba(30,30,30,0.9);
 }
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+kbd {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    border-radius: 6px;
+    margin: 20px 10px;
+    flex-basis: 42.5%;
+    flex-grow: 1;
+}
+
 .white-keys kbd{
     background-color: white;
     display: inline-flex;
