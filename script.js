@@ -34,6 +34,31 @@ document.addEventListener("keypress", function(e) {
         audJ.play();
         // console.log("The 'J' key is pressed.");
     }
+    else if(e.code == "KeyW") {
+        let audW = new Audio("audio/W.mp3");
+        audW.play();
+        // console.log("The 'J' key is pressed.");
+    }
+    else if(e.code == "KeyE") {
+        let audE = new Audio("audio/E.mp3");
+        audE.play();
+        // console.log("The 'J' key is pressed.");
+    }
+    else if(e.code == "KeyT") {
+        let audT = new Audio("audio/T.mp3");
+        audT.play();
+        // console.log("The 'J' key is pressed.");
+    }
+    else if(e.code == "KeyY") {
+        let audY = new Audio("audio/Y.mp3");
+        audY.play();
+        // console.log("The 'J' key is pressed.");
+    }
+    else if(e.code == "KeyU") {
+        let audU = new Audio("audio/U.mp3");
+        audU.play();
+        // console.log("The 'J' key is pressed.");
+    }
     else {
         console.log("Some other key was pressed.")
     }
