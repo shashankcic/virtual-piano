@@ -165,3 +165,26 @@ document.addEventListener("mouseout", function() {
     document.getElementById("keyY").style.transform = "scale(1.0)";
     document.getElementById("keyU").style.transform = "scale(1.0)";
 });
+
+function scalingup(name) {
+    document.getElementById(name).style.transform = "scale(1.05)";
+};
+
+function scalingdown(name) {
+    document.getElementById(name).style.transform = "scale(1.0)";
+};
+
+let scaleup = setInterval(scalingup,1500,"heading");
+let scaledown = setInterval(scalingdown,1800,"heading");
+
+document.addEventListener("keydown", function(){
+    if(scaleup) clearInterval(scaleup);
+    if (scaledown) clearInterval(scaledown);
+    scalingdown("heading");
+});
+
+document.addEventListener("mousedown", function(){
+    if(scaleup) clearInterval(scaleup);
+    if (scaledown) clearInterval(scaledown);
+    scalingdown("heading");
+});
