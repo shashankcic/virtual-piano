@@ -11,6 +11,11 @@ h1 {
     font-family: "Josefin Sans", serif;
     font-weight: bold;
     font-size: 48px;
+    text-shadow: -3px 3px 2px #666;
+}
+
+h3 {
+    text-shadow: 2px 2px 1px #666;
 }
 
 kbd {
